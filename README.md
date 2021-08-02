@@ -32,4 +32,4 @@ Vous souhaitez créer un schéma d'URL alert et avoir une application dans "C:\P
 [HKEY_CLASSES_ROOT\alert\shell\open\command]
 @="\"C:\\Program Files\\Alert\\alert.exe\" \"%1\""
 
-Salam AL QAISSY
+                                                                       Salam AL QAISSY
