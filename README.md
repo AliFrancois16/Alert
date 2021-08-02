@@ -15,8 +15,9 @@ Parfois, vous souhaitez avoir un schéma d'URL personnalisé comme alert: pour g
 L'application contient 2 projets :
 
 1-Un projet d'installation de Visual Studio qui installe l'application.
+
 2-Les paramètres de registre pour permettre à l'application Windows de gérer le protocole "alert:".
-Comment ça marche?
+
 Vous souhaitez créer un schéma d'URL alert et avoir une application dans "C:\Program Files\Alert\alert.exe"  dont vous souhaitez gérer le schéma d'URL avec votre application. Ensuite, vous devez créer ces clés et valeurs dans le registre.
 
     [HKEY_CLASSES_ROOT\alert]
