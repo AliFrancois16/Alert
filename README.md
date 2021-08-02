@@ -8,7 +8,8 @@ alert -> DefaultIcon et à l'intérieur de DefaultIcon changez la valeur (Defaul
 5. Pour tester si cela fonctionne, allez dans Chrome ou Edge et entrez alert:C:/Users/Path/lancer.bat cela devrait déclencher votre fichier .bat et en browser 
 href="alert:C:/Users/Path/lancer.bat"
 
-LA DESCRIPTION
+DESCRIPTION
+
 Parfois, vous souhaitez avoir un schéma d'URL personnalisé comme alert: pour gérer certains liens personnalisés. Pour ce faire, vous pouvez enregistrer une application dans un schéma d'URI dans le registre et créer une application qui s'exécute pour gérer les demandes adressées à ce schéma d'URL.
 
 L'application contient 2 projets :
