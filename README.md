@@ -18,18 +18,18 @@ L'application contient 2 projets :
 Comment ça marche?
 Vous souhaitez créer un schéma d'URL alert et avoir une application dans "C:\Program Files\Alert\alert.exe"  dont vous souhaitez gérer le schéma d'URL avec votre application. Ensuite, vous devez créer ces clés et valeurs dans le registre.
 
-[HKEY_CLASSES_ROOT\alert]
-"URL Protocol"="\"\""
-@="\"URL:Alert Protocol\""
+    [HKEY_CLASSES_ROOT\alert]
+    "URL Protocol"="\"\""
+    @="\"URL:Alert Protocol\""
 
-[HKEY_CLASSES_ROOT\alert\DefaultIcon]
-@="\"alert.exe,1\""
+    [HKEY_CLASSES_ROOT\alert\DefaultIcon]
+    @="\"alert.exe,1\""
 
-[HKEY_CLASSES_ROOT\alert\shell]
+    [HKEY_CLASSES_ROOT\alert\shell]
 
-[HKEY_CLASSES_ROOT\alert\shell\open]
+    [HKEY_CLASSES_ROOT\alert\shell\open]
 
-[HKEY_CLASSES_ROOT\alert\shell\open\command]
-@="\"C:\\Program Files\\Alert\\alert.exe\" \"%1\""
+    [HKEY_CLASSES_ROOT\alert\shell\open\command]
+    @="\"C:\\Program Files\\Alert\\alert.exe\" \"%1\""
 
-                                                                       Salam AL QAISSY
+Salam AL QAISSY
